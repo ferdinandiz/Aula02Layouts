@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B1DAB3"
+    >
+    <TextView
+        android:id="@+id/txt01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aula 2 - Trabalhando Layout"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FF0000"
+        android:textSize="20dp"
+        android:layout_marginTop="50dp"
+        />
+
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:hint="Digite o primeiro Valor"
+        android:layout_below="@id/txt01"
+        android:layout_marginTop="60dp"
+        android:inputType="number"/>
+    <EditText
+        android:id="@+id/ed2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:hint="Digite o segundo Valor"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/ed1"
+        android:inputType="number" />
+    <TextView
+        android:id="@+id/txt02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resposta: "
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/btn01"
+        android:layout_marginBottom="20dp"
+        android:textSize="20dp"
+        android:textColor="#000"
+        />
+<Button
+    android:id="@+id/btn01"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Somar"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="120dp"/>
+
+
+</RelativeLayout>
